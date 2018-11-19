@@ -1,0 +1,16 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        boolean result = isBelongToSection(5, 2, 3, 4, 6);
+        System.out.println(result);
+    }
+
+    static boolean isBelongToSection(int x, int fromA, int toB, int fromSecondA, int toSecondB) {
+        if ((x >= fromA && x <= toB) || (x >= fromSecondA && x <= toSecondB))
+            return true;
+        else
+            return false;
+    }
+}
