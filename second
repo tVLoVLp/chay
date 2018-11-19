@@ -1,0 +1,14 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+        secondTask();
+    }
+
+    public static void secondTask() {
+        double pi = 3.14159265358979;
+        System.out.println("PI = " + pi);
+    }
+}
+
